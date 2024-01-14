@@ -10,7 +10,6 @@ export default function Tabs() {
   const previewData = useSelector(state => state.preview)
 
   const [tabIndex, setTabIndex] = useState(tabs[0].id)
-  console.log(tabs);
   return (
     <div className="flex grow">
       <div className="grow flex flex-col w-[175px] shrink-0 text-slate-300 border-r border-slate-200">
