@@ -1,6 +1,7 @@
 import { useDispatch } from "react-redux"
 import { hidePreview } from "../features/preview"
 
+// eslint-disable-next-line react/prop-types
 export default function ButtonTab({ id, toggleTab, buttonContent, imgURL }) {
 
   const dispatch = useDispatch()

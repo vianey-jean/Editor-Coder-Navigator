@@ -1,6 +1,7 @@
 import { useDispatch } from "react-redux"
 import { updateCode } from "../features/tabs"
 
+// eslint-disable-next-line react/prop-types
 export default function CodeTab({code, id}) {
   const dispatch = useDispatch()
 

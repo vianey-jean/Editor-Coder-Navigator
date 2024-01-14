@@ -8,10 +8,9 @@ const initialState = [
       imgURL: html,
       buttonContent: "HTML",
       code: `<div>
-      <h1>Éditeur de code avec React</h1>
-      <p>Codez directement sur votre navigateur.</p>
-</div>
-      `
+      <h1>Éditeur de code avec React et Vite</h1>
+      <p>Codez directement sur votre navigateur, c'est cool.</p>
+              </div>`
     },
     {
       id: 2,
